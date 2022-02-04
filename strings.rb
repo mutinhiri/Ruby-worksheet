@@ -8,3 +8,6 @@ x = "there are #{10} types of people"
 binary = 'binary'
 do_not = 'Dont'
 y = "those who know #{binary} and those who #{do_not} are #{x}" 
+
+puts x
+puts y
