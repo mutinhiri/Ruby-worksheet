@@ -11,4 +11,4 @@ puts "He's %s metres tall," %my_height
 puts "He's %d Kg heavy" %my_weight
 puts "Isn't that too heavy noo at least"
 puts "he's got %s eyes and %s hair" %[my_eyes, my_hair]
-puts 
+puts "His teeth are usua;lly %s depending on %d " %[my_teeth, my_age]
