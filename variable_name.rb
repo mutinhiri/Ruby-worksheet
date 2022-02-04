@@ -14,3 +14,4 @@ average_passengers_per_car = passengers / cars_driven
 
 puts "There are #{cars} cars available"
 puts "There are only #{drivers} drivers available"
+puts "There will be #{cars_not_driven} cars without drivers"
