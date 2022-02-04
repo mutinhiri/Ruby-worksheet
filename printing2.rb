@@ -1,3 +1,3 @@
 # Continue working on APp printing
 
-days = "Mon, Feb"
+days = "Mon Tue Wed Thur "
