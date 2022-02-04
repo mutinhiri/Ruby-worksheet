@@ -7,4 +7,4 @@ space_in_car = 4.0
 passengers = 90
 
 #Check operations 
-cars_not_driven = cars - drivers
+puts cars_not_driven = cars - drivers
