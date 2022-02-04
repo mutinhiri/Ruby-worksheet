@@ -14,3 +14,6 @@ puts y
 
 puts "I said #{x}."
 puts "I also said #{y}"
+
+hilarious = false
+joke_evaluation = "Isn't that joke so funny ?! #{hilarious}"
