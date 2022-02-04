@@ -13,3 +13,5 @@ fat_cat = <<MY_HEREDOC
 I'LL do alist
   \t* Cat food
   \t* Fishies
+  \t* Catnip\nt* Grass
+MY_HEREDOC
