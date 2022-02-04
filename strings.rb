@@ -2,4 +2,4 @@
 name = 'Barnabas Bunbee'
 name2 = 'Great'
 
-puts "The name of the man is "
+puts "The name of the man is #{name } and the name of the second partner is #{name2}"
