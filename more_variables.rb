@@ -10,4 +10,4 @@ puts "Lets talk about %s." % my_name
 puts "He's %s metres tall," %my_height
 puts "He's %d Kg heavy" %my_weight
 puts "Isn't that too heavy noo at least"
-puts "he's got %s eyes and %s hair" %[my_eyes, my_age]
+puts "he's got %s eyes and %s hair" %[my_eyes, my_hair]
