@@ -10,3 +10,4 @@ puts formatter % [
   "But it didnt sing",
   "So I said goodnight"
 ]
+
