@@ -3,3 +3,4 @@ age = gets.chomp
 print 'How tall are you' 
 height = gets.chomp()
 print "weight yakamitra sei"
+weight = gets.chomp()
