@@ -15,3 +15,5 @@ I'LL do alist
   \t* Fishies
   \t* Catnip\nt* Grass
 MY_HEREDOC
+
+puts fat_cat
