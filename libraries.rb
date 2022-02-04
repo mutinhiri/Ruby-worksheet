@@ -1,6 +1,6 @@
 require 'open-uri'
 
-open("http://www.google.com") do |f|
+open("https://www.google.com") do |f|
   f.each_line {|line| p line}
   puts f.base_uri
   puts f.content_type
