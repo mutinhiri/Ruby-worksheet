@@ -12,5 +12,5 @@ y = "those who know #{binary} and those who #{do_not} are #{x}"
 puts x
 puts y
 
-puts 'I said #{x}.'
-puts 'I also'
+puts "I said #{x}."
+puts "I also said #{y}"
