@@ -18,3 +18,5 @@ puts "There will be #{cars_not_driven} cars without drivers"
 puts  "We can transport only #{ car_pool_capacity} people "
 puts "We have #{passengers} passengers to carpool"
 puts " We need to put about #{average_passengers_per_car} in each car"
+
+# if any error available check variable names
