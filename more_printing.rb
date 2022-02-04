@@ -6,3 +6,4 @@ puts "." * 10  #check the changes it ouptut to the console
 end1 = 'C'
 end2 = 'H'
 end3 = "E"
+end4 = 'C'
