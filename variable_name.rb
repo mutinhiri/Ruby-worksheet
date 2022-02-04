@@ -9,3 +9,4 @@ passengers = 90
 #Check operations 
 cars_not_driven = cars - drivers
 cars_driven = drivers
+car_pool_capacity = cars_driven * space_in_car
