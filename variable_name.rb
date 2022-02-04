@@ -11,3 +11,5 @@ cars_not_driven = cars - drivers
 cars_driven = drivers
 car_pool_capacity = cars_driven * space_in_car
 average_passengers_per_car = passengers / cars_driven
+
+puts 'There are #{cars} available'
