@@ -9,4 +9,5 @@ puts tabby_cat
 puts persian_cat
 puts backlash_cat
 
-fat_cat 
+fat_cat = <<MY_HEREDOC
+I'LL do alist
