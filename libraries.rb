@@ -1,4 +1,4 @@
-require 'open-url'
+require 'open-uri'
 
 open("http://www.google.com") do |f|
   f.each_line {|line| p line}
