@@ -18,7 +18,7 @@ end9 = "I"
 end10 = "T"
 end11 = "A"
 
-print end1 + end2 + end3 + end4 + end5 + brek
-print end7 + end8 + end9 + end10
+puts end1 + end2 + end3 + end4 + end5 + brek
+puts end7 + end8 + end9 + end10 + end11
 
 
