@@ -8,6 +8,5 @@ puts formatter % [
   "I had this thing",
   "That you could type up right",
   "But it didnt sing",
-  "So "
-
+  "So I said goodnight"
 ]
