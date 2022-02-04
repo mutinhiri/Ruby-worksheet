@@ -6,5 +6,6 @@ puts formatter % [true, false, false, true]
 puts formatter % [formatter, formatter, formatter, formatter]
 puts formatter % [
   "I had this thing",
-  "That you could type up right"
+  "That you could type up right",
+  
 ]
