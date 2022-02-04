@@ -18,5 +18,5 @@ end9 = "I"
 end10 = "T"
 end11 = "A"
 
-
+print end1 + end2 + 
 
