@@ -6,3 +6,4 @@ open(http://www.google.com) do |f|
   puts f.content_type
   puts f.charset
   puts f.consent_encoding
+  puts f.last_modified
