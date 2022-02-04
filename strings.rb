@@ -6,3 +6,4 @@ puts "The name of the man is #{name } and the name of the second partner is #{na
 
 x = "there are #{10} types of people"
 binary = 'binary'
+do_not = 'Dont'
