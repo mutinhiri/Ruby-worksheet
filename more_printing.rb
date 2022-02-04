@@ -19,5 +19,6 @@ end10 = "T"
 end11 = "A"
 
 print end1 + end2 + end3 + end4 + end5 + brek
+print end7
 
 
