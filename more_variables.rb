@@ -7,4 +7,5 @@ my_teeth = 'White'
 my_hair = 'Brownish' #not sure if color is available
 
 puts "Lets talk about %s." % my_name
-puts "He's %d metres tall," %my_height
+puts "He's %s metres tall," %my_height
+puts "He's %d Kg heavy" %my_weight
