@@ -1,3 +1,3 @@
 require 'open-url'
 
-open(http)
+open(http://www.google.com) do |f|
