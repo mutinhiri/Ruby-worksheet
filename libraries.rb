@@ -5,4 +5,4 @@ open(http://www.google.com) do |f|
   puts f.base_url
   puts f.content_type
   puts f.charset
-  
+  puts f.consent_encoding
