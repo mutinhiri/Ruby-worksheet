@@ -4,4 +4,4 @@ days = "Mon Tue Wed Thur Fri Sat Sun"
 
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\Aug"
 
-puts 
+puts "Here are the days:", days
