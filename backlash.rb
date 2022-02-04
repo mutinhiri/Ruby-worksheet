@@ -2,3 +2,4 @@
 'I am 6\'2" tall'
 
 tabby_cat = "\tI'm tabbed in"
+persian_cat = "i'm split \non line"
