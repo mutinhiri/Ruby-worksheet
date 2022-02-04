@@ -2,4 +2,4 @@
 
 days = "Mon Tue Wed Thur Fri Sat Sun"
 
-months = ""
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\Aug"
