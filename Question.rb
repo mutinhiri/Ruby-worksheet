@@ -5,4 +5,4 @@ height = gets.chomp()
 print "weight yakamitra sei"
 weight = gets.chomp()
 
-puts "Confirm you rae #{age}, and unorema #{height}"
+puts "Confirm you rae #{age}, and unorema #{weight} and wakareba #{height} mudenga"
