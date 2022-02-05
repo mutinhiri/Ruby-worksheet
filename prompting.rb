@@ -1,1 +1,2 @@
 user = ARGV.first
+prompt = '>'
