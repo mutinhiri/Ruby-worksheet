@@ -8,3 +8,4 @@ print prompt
 likes = STDIN.gets.chomp()
 
 puts "where do you live"
+print prompt
