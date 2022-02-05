@@ -9,3 +9,4 @@ likes = STDIN.gets.chomp()
 
 puts "where do you live #{user}"
 print prompt
+lives = STDIN.gets.chomp()
