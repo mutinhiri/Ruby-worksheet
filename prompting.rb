@@ -7,5 +7,5 @@ puts "do you like me #{user}"
 print prompt
 likes = STDIN.gets.chomp()
 
-puts "where do you live"
+puts "where do you live #{user}"
 print prompt
