@@ -14,3 +14,5 @@ lives = STDIN.gets.chomp()
 puts "What kind of computer do you have"
 print prompt
 computer = STDIN.gets.chomp()
+
+puts <<MESSAGE
