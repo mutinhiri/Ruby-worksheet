@@ -16,4 +16,5 @@ print prompt
 computer = STDIN.gets.chomp()
 
 puts <<MESSAGE
-Alright, so you said #{likes} about liking me
+Alright, so you said #{likes} about liking me.
+You live in #{lives}. Not sure wher that is 
