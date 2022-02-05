@@ -16,3 +16,4 @@ print prompt
 computer = STDIN.gets.chomp()
 
 puts <<MESSAGE
+Alright, so you said #{likes} about liking me
