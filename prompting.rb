@@ -18,4 +18,5 @@ computer = STDIN.gets.chomp()
 puts <<MESSAGE
 Alright, so you said #{likes} about liking me.
 You live in #{lives}. Not sure wher that is 
-And you have a #{computer} computer
+And you have a #{computer} computer Nice
+MESSAGE
