@@ -22,3 +22,4 @@ puts "i.m going to write to these files"
 
 target.write(line1)
 target.write("\n")
+target.write(line2)
