@@ -3,4 +3,4 @@ filename = ARGV.first
 prompt = ">"
 txt = File.open(filename)
 
-puts
+puts "Here's your file: #{filename}"
