@@ -1,1 +1,3 @@
 filename = ARGV.first
+
+prompt = ">"
