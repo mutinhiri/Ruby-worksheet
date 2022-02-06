@@ -13,3 +13,4 @@ target = File.open(filename, 'w')
 
 puts "Truncating the file. Goodbye!"
 target.truncate(target.size)
+puts "Now I'm going to ask you for 3 lines"
