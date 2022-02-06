@@ -10,4 +10,4 @@ puts "Does the output file exist #{File.exists?}"
 puts "Ready , hit Return to continue"
 STDIN.gets
 
-output = File.open()
+output = File.open(to_file, 'w')
