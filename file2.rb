@@ -11,3 +11,5 @@ puts "Ready , hit Return to continue"
 STDIN.gets
 
 output = File.open(to_file, 'w')
+
+puts "Alright, done"
