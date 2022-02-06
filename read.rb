@@ -10,3 +10,5 @@ STDIN.gets
 
 puts "Opening the file..."
 target = File.open(filename, 'w')
+
+puts "Truncating the file. Goodbye!"
