@@ -8,7 +8,7 @@ txt = File.open(filename)
 puts "Here's your file: #{filename}"
 #read text contents 
 puts txt.read()
-# 
+# Read file contents
 puts "I'll also ask you to type it again"
 print prompt
 file_again = STDIN.gets.chomp()
