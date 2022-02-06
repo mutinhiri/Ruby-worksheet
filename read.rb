@@ -7,3 +7,5 @@ puts "If you do want that hit RETURn"
 
 print "?"
 STDIN.gets
+
+puts "Opening the file..."
