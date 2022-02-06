@@ -10,6 +10,7 @@ puts "Here's your file: #{filename}"
 puts txt.read()
 # Read file contents
 puts "I'll also ask you to type it again"
+# verify file contents
 print prompt
 file_again = STDIN.gets.chomp()
 txt_again = File.open(file_again)
