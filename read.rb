@@ -9,4 +9,4 @@ print "?"
 STDIN.gets
 
 puts "Opening the file..."
-target = File.open()
+target = File.open(filename, 'w')
