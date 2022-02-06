@@ -6,6 +6,7 @@ prompt = ">"
 txt = File.open(filename)
 #Display file name 
 puts "Here's your file: #{filename}"
+#read text contents 
 puts txt.read()
 puts "I'll also ask you to type it again"
 print prompt
