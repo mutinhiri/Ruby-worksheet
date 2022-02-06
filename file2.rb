@@ -13,3 +13,4 @@ STDIN.gets
 output = File.open(to_file, 'w')
 
 puts "Alright, done"
+output.close()
