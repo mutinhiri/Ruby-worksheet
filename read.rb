@@ -9,3 +9,4 @@ print "?"
 STDIN.gets
 
 puts "Opening the file..."
+target = File.open()
