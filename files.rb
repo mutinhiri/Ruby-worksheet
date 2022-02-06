@@ -4,7 +4,7 @@ filename = ARGV.first
 prompt = ">"
 # this sets txt to Fil
 txt = File.open(filename)
-
+#Display file name 
 puts "Here's your file: #{filename}"
 puts txt.read()
 puts "I'll also ask you to type it again"
