@@ -6,3 +6,4 @@ input = File.open(from_file)
 indata = input.read()
 
 puts "the input file is #{indata.length} bytes long"
+puts "Does the output file exist"
