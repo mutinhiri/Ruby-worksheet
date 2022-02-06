@@ -20,3 +20,4 @@ txt_again = File.open(file_again)
 puts txt_again.read()
 #close file
 txt.close
+txt_again.close()
