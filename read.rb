@@ -26,3 +26,6 @@ target.write(line2)
 target.write("\n")
 target.write(line3)
 target.write("\n")
+
+puts "An finally , we close it up"
+target.close()
