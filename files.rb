@@ -16,4 +16,5 @@ print prompt
 file_again = STDIN.gets.chomp()
 #get file input
 txt_again = File.open(file_again)
+# open file
 puts txt_again.read()
