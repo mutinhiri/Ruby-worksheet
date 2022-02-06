@@ -1,5 +1,6 @@
 # this line accepts filename as ARGV
 filename = ARGV.first
+#this line prints a prompt message
 prompt = ">"
 txt = File.open(filename)
 
