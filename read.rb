@@ -21,4 +21,4 @@ print "line 3: " line3 = STDIN.gets.chomp()
 puts "i.m going to write to these files"
 
 target.write(line1)
-ta
+target.write("\n")
