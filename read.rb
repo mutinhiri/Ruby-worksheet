@@ -19,3 +19,5 @@ print "line 2:"; line2 = STDIN.gets.chomp()
 print "line 3: " line3 = STDIN.gets.chomp()
 
 puts "i.m going to write to these files"
+
+target.write(line1)
