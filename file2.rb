@@ -7,3 +7,4 @@ indata = input.read()
 
 puts "the input file is #{indata.length} bytes long"
 puts "Does the output file exist #{File.exists?}"
+puts "Ready , hit Return to continue"
