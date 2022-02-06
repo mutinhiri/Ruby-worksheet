@@ -17,3 +17,5 @@ puts "Now I'm going to ask you for 3 lines"
 print "line 1: "; line1 = STDIN.gets.chomp()
 print "line 2:"; line2 = STDIN.gets.chomp()
 print "line 3: " line3 = STDIN.gets.chomp()
+
+puts "i.m going to write to these files"
