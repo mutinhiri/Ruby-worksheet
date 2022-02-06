@@ -2,6 +2,7 @@
 filename = ARGV.first
 #this line prints a prompt message
 prompt = ">"
+#
 txt = File.open(filename)
 
 puts "Here's your file: #{filename}"
