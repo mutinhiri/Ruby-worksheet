@@ -16,6 +16,7 @@ puts "the input file is #{indata.length} bytes long"
 puts "Does the output file exist #{File.exists?}"
 # Add continue after fuinishing the changes
 puts "Ready , hit Return to continue"
+#Check condition for continue or return
 STDIN.gets
 
 output = File.open(to_file, 'w')
