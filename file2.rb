@@ -1,3 +1,4 @@
+#copy file 
 from_file, to_file = ARGV
 script = $0
 
