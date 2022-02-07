@@ -21,6 +21,7 @@ STDIN.gets
 
 # open input file after writting
 output = File.open(to_file, 'w')
+output.write(indata)
 
 # Add changes
 puts "Alright, done"
