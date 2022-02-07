@@ -5,6 +5,7 @@ script = $0
 
 #display text for progress
 puts "Copying from #{from_file} to #{to_file}"
+#open file as input
 input = File.open(from_file)
 indata = input.read()
 
