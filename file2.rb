@@ -3,6 +3,7 @@ from_file, to_file = ARGV
 #script
 script = $0
 
+#display text for progress
 puts "Copying from #{from_file} to #{to_file}"
 input = File.open(from_file)
 indata = input.read()
