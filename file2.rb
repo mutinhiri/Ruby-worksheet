@@ -22,7 +22,7 @@ STDIN.gets
 # open input file after writting
 output = File.open(to_file, 'w')
 
-
+# Add changes
 puts "Alright, done"
 output.close()
 input.close()
