@@ -10,6 +10,7 @@ input = File.open(from_file)
 #read input data
 indata = input.read()
 
+#show bytes for input file
 puts "the input file is #{indata.length} bytes long"
 puts "Does the output file exist #{File.exists?}"
 puts "Ready , hit Return to continue"
