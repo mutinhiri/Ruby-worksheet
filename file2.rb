@@ -13,7 +13,7 @@ indata = input.read()
 #show bytes for input file
 puts "the input file is #{indata.length} bytes long"
 # Check if the file exists
-puts "Does the output file exist #{File.exists?(from_file)}"
+puts "Does the output file exist #{File.exists?(from_file)}" #I AM PROUD OF THIS LINE
 # Add continue after finishing the changes
 puts "Ready , hit Return to continue"
 #Check condition for continue or return
