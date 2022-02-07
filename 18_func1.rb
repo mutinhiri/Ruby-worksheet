@@ -6,3 +6,4 @@ end
 puts_two("barna", "test")
 
 def puts_two_again(arg1, arg2)
+  puts 
