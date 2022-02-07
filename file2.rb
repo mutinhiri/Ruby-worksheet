@@ -7,6 +7,7 @@ script = $0
 puts "Copying from #{from_file} to #{to_file}"
 #open file as input
 input = File.open(from_file)
+#read input data
 indata = input.read()
 
 puts "the input file is #{indata.length} bytes long"
