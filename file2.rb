@@ -26,4 +26,5 @@ output = File.open(to_file, 'w')
 puts "Alright, done"
 #close output file
 output.close()
+#close input file 
 input.close()
