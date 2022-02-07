@@ -19,7 +19,9 @@ puts "Ready , hit Return to continue"
 #Check condition for continue or return
 STDIN.gets
 
+# open input file after writting
 output = File.open(to_file, 'w')
+
 
 puts "Alright, done"
 output.close()
