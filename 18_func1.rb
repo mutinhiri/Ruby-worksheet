@@ -18,3 +18,4 @@ def puts_none()
 end
 
 puts_two('Barna', "bas")
+puts_two_again('bas', 'barna')
