@@ -26,3 +26,6 @@ weight = multipy(90, 2)
 iq = divide(100, 2)
 
 puts "Age: #{age} , Height: #{height}, Weight: #{weight}, Iq : #{iq}"
+
+what = add(age, subtract(height, multipy(weight, divide(iq))))
+
