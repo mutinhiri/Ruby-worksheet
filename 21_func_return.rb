@@ -21,3 +21,4 @@ end
 puts "Lets test functions "
 
 age = add(30, 5)
+height = subtract(78, 4)
