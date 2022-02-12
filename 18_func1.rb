@@ -15,3 +15,4 @@ end
 
 def puts_none()
   puts 'i got nothing'
+end
