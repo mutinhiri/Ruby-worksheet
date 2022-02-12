@@ -15,6 +15,7 @@ bread_new = 35
 biscuits = 2
 cooking_oil = 20
 
+# Initialize new stock with added items
 tuckshop_and_beverage(bread_new, biscuits, cooking_oil)
 puts "Check file operations"
 
