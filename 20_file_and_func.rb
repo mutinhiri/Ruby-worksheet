@@ -20,3 +20,5 @@ print_all(current_file)
 puts "Now rewinding to file spec"
 rewind(current_file)
 puts "lets print 3 files/files"
+
+current_line = 1
