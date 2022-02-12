@@ -14,4 +14,6 @@ def multipy(a, b)
 end
 
 def divide(a, b)
-  
+  puts "Dividing #{a} / #{b}"
+  a / b
+end
