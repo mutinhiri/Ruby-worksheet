@@ -19,3 +19,5 @@ def divide(a, b)
 end
 
 puts "Lets test functions "
+
+age = add(30, 5)
