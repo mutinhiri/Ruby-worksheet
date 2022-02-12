@@ -7,3 +7,5 @@ def tuckshop_and_beverage(bread, biscuits, cooking_oil)
 end
 
 puts "we are perfoming stock for our small shop"
+tuckshop_and_beverage(30, 34,5)
+
