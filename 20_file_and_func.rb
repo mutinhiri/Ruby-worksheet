@@ -11,3 +11,5 @@ end
 def print_a_line(line_count, f)
   puts "#{line_count} #{f.readline()}"
 end
+
+current_file = File.open(input_file)
