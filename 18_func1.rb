@@ -20,3 +20,4 @@ end
 puts_two('Barna', "bas")
 puts_two_again('bas', 'barna')
 puts_one('barna')
+puts_none()
