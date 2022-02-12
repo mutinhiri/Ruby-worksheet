@@ -11,3 +11,4 @@ end
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
+puts "With a starting pouint of: #{start_point}"
