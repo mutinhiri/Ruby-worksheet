@@ -10,7 +10,9 @@ puts "we are perfoming stock for our small shop"
 tuckshop_and_beverage(30, 34,5)
 
 puts "Check for items purchased when stock was not sufficient"
-bread = 35
+bread_new = 35
 biscuits = 2
+cooking_oil = 20
+
 
 
