@@ -14,5 +14,5 @@ bread_new = 35
 biscuits = 2
 cooking_oil = 20
 
-
+tuckshop_and_beverage(bread_new, biscuits, cooking_oil)
 
