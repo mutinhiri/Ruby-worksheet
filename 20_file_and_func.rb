@@ -22,3 +22,4 @@ rewind(current_file)
 puts "lets print 3 files/files"
 
 current_line = 1
+print_a_line(current_line, current_file)
