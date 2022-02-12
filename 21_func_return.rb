@@ -25,4 +25,4 @@ height = subtract(78, 4)
 weight = multipy(90, 2)
 iq = divide(100, 2)
 
-puts "Age: #{age}"
+puts "Age: #{age} , Height: #{height}, Weight: #{weight}, Iq : #{iq}"
