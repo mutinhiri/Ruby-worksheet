@@ -13,3 +13,5 @@ def print_a_line(line_count, f)
 end
 
 current_file = File.open(input_file)
+
+puts "Begining to print file contents"
