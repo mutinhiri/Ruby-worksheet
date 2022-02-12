@@ -9,3 +9,5 @@ def rewind(f)
 end
 
 def print_a_line(ine_count, f)
+  puts "#{line_count} #{f.readline()}"
+end
