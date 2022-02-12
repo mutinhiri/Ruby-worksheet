@@ -9,4 +9,6 @@ def puts_two_again(arg1, arg2)
   puts "arg1: #{arg1}, and arg2: #{arg2}"
 end
 
-def puts_one 
+def puts_one(arg1)
+  puts "arg1: #{arg1}"
+end
