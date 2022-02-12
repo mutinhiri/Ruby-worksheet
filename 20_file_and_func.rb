@@ -6,6 +6,7 @@ def print_all(f)
   puts f.read()
 end
 
+# Rewind app to certain time
 def rewind(f)
   f.seek(0, IO::SEEK_SET)
 end
