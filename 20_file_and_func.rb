@@ -16,6 +16,7 @@ def print_a_line(line_count, f)
   puts "#{line_count} #{f.readline()}"
 end
 
+# Set current file 
 current_file = File.open(input_file)
 
 puts "Begining to print file contents"
