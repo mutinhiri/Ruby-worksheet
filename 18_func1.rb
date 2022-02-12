@@ -7,3 +7,4 @@ puts_two("barna", "test")
 
 def puts_two_again(arg1, arg2)
   puts "arg1: #{arg1}, and arg2: #{arg2}"
+end
