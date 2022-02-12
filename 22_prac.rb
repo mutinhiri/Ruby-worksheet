@@ -7,3 +7,6 @@ def secret_formula(started)
   crates = jars / 100
   return jelly_beans, jars, crates
 end
+
+start_point = 10000
+
