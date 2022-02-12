@@ -13,7 +13,7 @@ def puts_one(arg1)
   puts "arg1: #{arg1}"
 end
 
-def puts_none()
+def puts_none
   puts 'i got nothing'
 end
 
