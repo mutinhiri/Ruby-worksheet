@@ -23,3 +23,4 @@ puts "Lets test functions "
 age = add(30, 5)
 height = subtract(78, 4)
 weight = multipy(90, 2)
+iq = divide(100, 2)
