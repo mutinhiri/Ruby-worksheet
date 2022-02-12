@@ -1,6 +1,7 @@
 #set input file
 input_file = ARGV[0]
 
+# define new method to print all 
 def print_all(f)
   puts f.read()
 end
