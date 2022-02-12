@@ -1,3 +1,4 @@
+# Here the app of a tuckshop takes the parameters as items sold in the tuck
 def tuckshop_and_beverage(bread, biscuits, cooking_oil)
   puts "Available is #{bread} loaves"
   puts "You have #{biscuits} packs"
