@@ -19,6 +19,7 @@ end
 # Set current file 
 current_file = File.open(input_file)
 
+# Print file contents
 puts "Begining to print file contents"
 
 print_all(current_file)
