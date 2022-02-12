@@ -9,3 +9,4 @@ def subtract(a, b)
 end
 
 def multipy(a, b)
+  puts"Multiplying #{a} * #{b}
