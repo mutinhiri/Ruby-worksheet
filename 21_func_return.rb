@@ -7,3 +7,5 @@ def subtract(a, b)
   puts "subtracting #{a} - #{b}"
   a-b 
 end
+
+def multipy(a, b)
