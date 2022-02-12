@@ -16,3 +16,5 @@ end
 def puts_none()
   puts 'i got nothing'
 end
+
+puts_two('Barna', "bas")
