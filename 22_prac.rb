@@ -9,4 +9,5 @@ def secret_formula(started)
 end
 
 start_point = 10000
+beans, jars, crates = secret_formula(start_point)
 
