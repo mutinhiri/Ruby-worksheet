@@ -10,3 +10,5 @@ end
 
 def multipy(a, b)
   puts"Multiplying #{a} * #{b}
+  a * b
+end
