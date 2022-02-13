@@ -2,37 +2,44 @@ def break_words(stuff)
     puts"This function will break up words for us."
     words = stuff.split(' ')
     return words
+end
 
 def sort_words(words)
     puts"Sorts the words."
-    return sorted(words)
+    return words.sort()
+end
 
 def print_first_word(words)
     puts "Prints the first word after popping it off."
     word = words.pop(0)
     print word
+end
 
 def print_last_word(words)
     puts "Prints the last word after popping it off."
-    word = words.pop(-1)
+    word = words.pop()
     print word
+end
 
 def sort_sentence(sentence)
     puts "Takes in a full sentence and returns the sorted words."
     words = break_words(sentence)
     return sort_words(words)
+end
 
 def print_first_and_last(sentence)
     puts "Prints the first and last words of the sentence."
     words = break_words(sentence)
     print_first_word(words)
     print_last_word(words)
+end
 
 def print_first_and_last_sorted(sentence)
     puts "Sorts the words then prints the first and last one."
     words = sort_sentence(sentence)
     print_first_word(words)
     print_last_word(words)
+end
 
 
 print "Let's practice everything."
@@ -60,13 +67,14 @@ def secret_formula(started)
     jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
+end
 
 
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
 print "With a starting point of: %d" % start_point
-print "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
+print "We'd have %d jeans, %d jars, and %d crates." % [beans, jars, crates]
 
 start_point = start_point / 10
 
