@@ -19,3 +19,7 @@ if people > dogs
 end
 
 dogs += 5
+
+if people >= dogs
+  puts "People are greater than or equal to dogs"
+end
