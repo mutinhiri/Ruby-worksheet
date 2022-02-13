@@ -12,3 +12,6 @@ module Ex25
     word = words.shift()
     puts word
   end
+
+  def self.print_last_word(words)
+    
