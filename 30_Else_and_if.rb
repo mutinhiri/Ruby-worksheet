@@ -6,4 +6,7 @@ if cars > people
   puts "we should take the cars"
 elsif cars < people 
   puts "We should not take the cars"
+else
+  puts "We can not decide now"
+end
 
