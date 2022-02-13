@@ -9,3 +9,6 @@ end
 if people < cats
   puts "we have a problem here"
 end 
+
+if people < dogs 
+  puts "We are in a trouble"
