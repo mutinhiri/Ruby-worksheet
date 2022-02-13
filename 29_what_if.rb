@@ -30,3 +30,4 @@ end
 
 if people == dogs
   puts "You are all equal"
+end
