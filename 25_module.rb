@@ -23,3 +23,6 @@ module Ex25
     sort_words(words)
   end
 
+  def self.print_first_and_last(sentence)
+    words = break_words(sentence)
+
