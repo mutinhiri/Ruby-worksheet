@@ -19,3 +19,6 @@ if door == "1"
     puts "the bear eat legs"
   else
     puts "well, doing #{bear} is probably better"
+  end
+
+elsif door = "2"
