@@ -11,4 +11,7 @@ if door == "1"
   puts " 1 for take the cake"
   puts "2 Scream at the bear"
 
-  prompt;
+  prompt; bear = gets.chomp()
+
+  if bear == "1"
+    
