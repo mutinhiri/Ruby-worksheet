@@ -10,3 +10,5 @@ else
   puts "We can not decide now"
 end
 
+if buses > cars
+  puts "Thats too many busses"
