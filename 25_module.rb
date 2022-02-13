@@ -34,4 +34,4 @@ module Ex25
     print_first_word(words)
     print_last_word(words)
   end
-
+end
