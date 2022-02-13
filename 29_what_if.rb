@@ -16,3 +16,4 @@ end
 
 if people > dogs
   puts "The world is dry"
+end
