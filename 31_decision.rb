@@ -18,4 +18,4 @@ if door == "1"
   elsif bear == "2"
     puts "the bear eat legs"
   else
-    puts "well, doing #{bear} is probably bettetr"
+    puts "well, doing #{bear} is probably better"
