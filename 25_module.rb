@@ -14,4 +14,7 @@ module Ex25
   end
 
   def self.print_last_word(words)
-    
+    word = words.pop()
+    puts word
+  end
+
