@@ -7,3 +7,5 @@ module Ex25
   def self.sort_words(words)
     words.sort()
   end
+
+  def self.print_first_word(words)
