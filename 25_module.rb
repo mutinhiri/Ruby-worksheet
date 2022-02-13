@@ -9,4 +9,6 @@ module Ex25
   end
 
   def self.print_first_word(words)
-    word = words.pop()
+    word = words.shift()
+    puts word
+  end
