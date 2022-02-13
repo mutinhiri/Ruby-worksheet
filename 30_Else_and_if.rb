@@ -17,3 +17,6 @@ elsif buses < cars
 else
   puts "we still cant decide"
 end
+
+if people > buses
+  puts "We will use buses"
