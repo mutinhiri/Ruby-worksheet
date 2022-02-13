@@ -30,4 +30,5 @@ module Ex25
   end
 
   def self.print_first_and_last_sorted(sentence)
+    words = sort_sentence(sentence)
 
