@@ -9,3 +9,4 @@ module Ex25
   end
 
   def self.print_first_word(words)
+    word = words.pop()
