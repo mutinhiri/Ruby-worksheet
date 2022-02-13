@@ -12,3 +12,7 @@ end
 
 if people < dogs 
   puts "We are in a trouble"
+end
+
+if people > dogs
+  puts "The world is dry"
