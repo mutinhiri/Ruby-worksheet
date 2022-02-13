@@ -29,3 +29,4 @@ if people <= dogs
 end
 
 if people == dogs
+  puts "You are all equal"
