@@ -8,4 +8,5 @@ prompt; door = gets.chomp()
 
 if door == "1"
   puts "There is a giant beear here eating chees"
-  puts ""
+  puts " 1 for take the cake"
+  puts
