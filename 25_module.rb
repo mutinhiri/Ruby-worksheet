@@ -5,4 +5,5 @@ module Ex25
   end
 
   def self.sort_words(words)
-    
+    words.sort()
+  end
