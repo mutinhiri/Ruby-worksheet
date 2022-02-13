@@ -4,4 +4,6 @@ buses = 15
 
 if cars > people
   puts "we should take the cars"
-end
+elsif cars < people 
+  puts "We should not take the cars"
+
