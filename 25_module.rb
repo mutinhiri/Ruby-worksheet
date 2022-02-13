@@ -18,3 +18,8 @@ module Ex25
     puts word
   end
 
+  def self.sort_sentence(sentence)
+    words = break_words(sentence)
+    sort_words(words)
+  end
+
