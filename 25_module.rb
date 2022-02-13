@@ -29,3 +29,5 @@ module Ex25
     print_last_word(words)
   end
 
+  def self.print_first_and_last_sorted(sentence)
+
