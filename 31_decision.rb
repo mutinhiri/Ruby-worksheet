@@ -16,4 +16,6 @@ if door == "1"
   if bear == "1"
     puts "the bear eats your face"
   elsif bear == "2"
-    puts "the bear eat slegs"
+    puts "the bear eat legs"
+  else
+    puts "well, doing #{bear} is probably bettetr"
