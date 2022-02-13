@@ -20,3 +20,6 @@ end
 
 if people > buses
   puts "We will use buses"
+else
+  puts "Fine , lets stay home then"
+end
