@@ -12,3 +12,8 @@ end
 
 if buses > cars
   puts "Thats too many busses"
+elsif buses < cars
+  puts "Maybe just take the buses"
+else
+  puts "we still cant decide"
+end
