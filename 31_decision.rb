@@ -14,4 +14,4 @@ if door == "1"
   prompt; bear = gets.chomp()
 
   if bear == "1"
-    
+    puts "the bear eats your face"
