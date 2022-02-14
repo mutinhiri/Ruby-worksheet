@@ -69,4 +69,7 @@ end
 
 def start()
   puts "You are in adark room"
-  puts
+  puts "There is a door to your right and left"
+  puts "Which one do you take"
+
+  prompt; next_move = gets.chomp
