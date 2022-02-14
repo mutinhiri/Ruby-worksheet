@@ -64,3 +64,5 @@ end
 
 def dead(why)
   puts "#{why} Good job"
+  Process.exit(0)
+end
