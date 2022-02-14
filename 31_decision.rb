@@ -36,3 +36,4 @@ elsif door == "2"
   end
 else
   puts "You will fall"
+end
