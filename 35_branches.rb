@@ -26,3 +26,4 @@ def bear_room()
   puts "The bear has a bunch of honey"
   puts "the fat bear is at the front of the door"
   puts "How do you intend to move the bear"
+  bear_moved = false 
