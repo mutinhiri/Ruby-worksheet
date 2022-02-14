@@ -5,3 +5,7 @@ change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 for number in the_count
   puts "this is count #{number}"
 end
+
+fruits.each do |fruit|
+  puts "A fruit of type: #{fruit}"
+end
