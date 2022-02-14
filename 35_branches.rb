@@ -33,7 +33,7 @@ def bear_room()
 
     if next_move == "take honey"
       dead("the bear looks at you and slap you")
-    elsif next_move == "taunt bear " and not bear_moved
+    elsif next_move == "taunt bear " and not bear_moved == false
       puts "te bear has moved from the door"
       bear_moved = true
     elsif next_move == "taunt bear" and bear_moved
