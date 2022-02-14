@@ -22,3 +22,4 @@ if door == "1"
   end
 
 elsif door == "2"
+  puts "You stare in the endless abyss"
