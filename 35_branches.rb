@@ -47,4 +47,6 @@ def bear_room()
 end
 
 def cthulu_room()
+  puts "Here you will see the great evil Cthulu."
+  puts "He eats whatever stares at him"
   
