@@ -8,4 +8,6 @@ def gold_room()
   prompt; next_move = gets.chomp()
 
   if next_move.include? "0" or next_move.include? "50"
-    how_much = 
+    how_much = next_move. to_i()
+  else
+    dead("Man, learn to type a number")
