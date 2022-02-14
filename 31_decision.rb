@@ -35,4 +35,4 @@ elsif door == "2"
     "we can not help you at the moment"
   end
 else
-  puts "You ill fall"
+  puts "You will fall"
