@@ -62,3 +62,5 @@ def cthulu_room()
   end
 end
 
+def dead(why)
+  puts "#{why} Good job"
