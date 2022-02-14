@@ -20,3 +20,5 @@ def gold_room()
     dead("You greedy bastard")
   end
 end
+
+def bear_room()
