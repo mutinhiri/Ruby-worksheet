@@ -9,3 +9,5 @@ while i < 6
   puts "Numbers now: #{numbers}"
   puts "At the bottom i is #{i}"
 end 
+
+puts numbers
