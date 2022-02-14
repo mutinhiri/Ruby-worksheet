@@ -9,3 +9,7 @@ end
 fruits.each do |fruit|
   puts "A fruit of type: #{fruit}"
 end
+
+for i in change
+  puts "I got #{i}"
+end 
