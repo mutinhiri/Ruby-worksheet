@@ -12,4 +12,6 @@ def gold_room()
   else
     dead("Man, learn to type a number")
   end
-  
+
+  if how_much < 50
+    puts "Great you are not gready so you win"
