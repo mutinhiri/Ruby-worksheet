@@ -33,3 +33,5 @@ def bear_room()
 
     if next_move == "take honey"
       dead("the bear looks at you and slap you")
+    elsif next_move == "taunt bear" and bear_moved == false
+      dead("the bear gets pissed off and chews you")
