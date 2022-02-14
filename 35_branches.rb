@@ -53,6 +53,7 @@ def cthulu_room()
 
   prompt; next_move = gets.chomp
 
-  if next_move include? "flee"
+  if next_move.include? "flee"
     start()
+  elsif next_move.include?
 
