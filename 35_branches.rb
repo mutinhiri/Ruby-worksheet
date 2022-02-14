@@ -77,3 +77,10 @@ def start()
   if next_move == "left"
     bear_room()
   elsif next_move == "right"
+    cthulu_room()
+  else
+    dead("You stumble around the room until ")
+  end
+end
+
+start()
