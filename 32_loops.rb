@@ -12,4 +12,6 @@ end
 
 for i in change
   puts "I got #{i}"
-end 
+end
+
+elements = []
