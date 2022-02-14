@@ -26,3 +26,5 @@ elsif door == "2"
   puts "1. Blueberries"
   puts "2. Yellow jacket clothespis"
   puts "3. Understanding revolvers yelling melodies"
+
+  prompt; insanity = gets.chomp()
