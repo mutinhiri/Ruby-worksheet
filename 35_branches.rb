@@ -55,5 +55,10 @@ def cthulu_room()
 
   if next_move.include? "flee"
     start()
-  elsif next_move.include?
+  elsif next_move.include? "head"
+    dead("well that was tasty")
+  else
+    cthulu_room()
+  end
+end
 
