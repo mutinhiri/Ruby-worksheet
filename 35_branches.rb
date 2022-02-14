@@ -5,4 +5,4 @@ end
 def gold_room()
   puts "This room is full of gold how much do you want"
 
-  prompt; 
+  prompt; next_move = gets.chomp()
