@@ -22,3 +22,4 @@ def gold_room()
 end
 
 def bear_room()
+  puts "There is a bear here"
