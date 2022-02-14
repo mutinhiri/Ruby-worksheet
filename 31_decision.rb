@@ -28,3 +28,7 @@ elsif door == "2"
   puts "3. Understanding revolvers yelling melodies"
 
   prompt; insanity = gets.chomp()
+
+  if insanity == '1' or insanity == '2'
+    puts "You can survive if you wake hard"
+  end
