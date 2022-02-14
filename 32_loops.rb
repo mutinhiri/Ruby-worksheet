@@ -21,4 +21,7 @@ for i in (0..5)
   elements.push(i)
 end
 
+for e in elements
+  puts "Element was :#{e}"
+end
 
