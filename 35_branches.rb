@@ -66,3 +66,7 @@ def dead(why)
   puts "#{why} Good job"
   Process.exit(0)
 end
+
+def start()
+  puts "You are in adark room"
+  puts
