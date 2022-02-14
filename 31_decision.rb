@@ -31,4 +31,8 @@ elsif door == "2"
 
   if insanity == '1' or insanity == '2'
     puts "You can survive if you wake hard"
+  else
+    "we can not help you at the moment"
   end
+else
+  puts "You ill fall"
