@@ -11,3 +11,5 @@ def gold_room()
     how_much = next_move. to_i()
   else
     dead("Man, learn to type a number")
+  end
+  
