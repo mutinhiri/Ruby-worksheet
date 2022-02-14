@@ -51,3 +51,8 @@ def cthulu_room()
   puts "He eats whatever stares at him"
   puts "Do you flee for your life or eat you r meal"
 
+  prompt; next_move = gets.chomp
+
+  if next_move include? "flee"
+    start()
+
