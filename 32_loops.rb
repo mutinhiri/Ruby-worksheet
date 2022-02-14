@@ -3,3 +3,5 @@ fruits = ['apples', 'oranges', 'pears, apricots', 'banana']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
 for number in the_count
+  puts "this is count #{number}"
+end
