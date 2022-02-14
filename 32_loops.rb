@@ -15,3 +15,6 @@ for i in change
 end
 
 elements = []
+
+for i in (0..5)
+  
