@@ -73,3 +73,7 @@ def start()
   puts "Which one do you take"
 
   prompt; next_move = gets.chomp
+
+  if next_move == "left"
+    bear_room()
+  elsif next_move == "right"
