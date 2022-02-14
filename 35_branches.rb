@@ -49,4 +49,5 @@ end
 def cthulu_room()
   puts "Here you will see the great evil Cthulu."
   puts "He eats whatever stares at him"
-  
+  puts "Do you flee for your life or eat you r meal"
+
