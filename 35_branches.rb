@@ -15,3 +15,8 @@ def gold_room()
 
   if how_much < 50
     puts "Great you are not gready so you win"
+    Process.exit(0)
+  else
+    dead("You greedy bastard")
+  end
+end
