@@ -24,3 +24,4 @@ end
 def bear_room()
   puts "There is a bear here"
   puts "The bear has a bunch of honey"
+  puts "the fat bear is at the front of the door"
