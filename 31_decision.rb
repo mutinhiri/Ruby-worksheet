@@ -23,3 +23,5 @@ if door == "1"
 
 elsif door == "2"
   puts "You stare in the endless abyss"
+  puts "1. Blueberries"
+  puts "2. Yellow jacket clothespis"
