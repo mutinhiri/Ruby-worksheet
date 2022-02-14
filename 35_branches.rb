@@ -29,3 +29,6 @@ def bear_room()
   bear_moved = false 
 
   while true
+    prompt; next_move = gets.chomp
+
+    if 
