@@ -17,4 +17,6 @@ end
 elements = []
 
 for i in (0..5)
+  puts "Adding #{i} to the list."
   
+
