@@ -21,4 +21,4 @@ if door == "1"
     puts "well, doing #{bear} is probably better"
   end
 
-elsif door = "2"
+elsif door == "2"
