@@ -38,4 +38,13 @@ def bear_room()
       bear_moved = true
     elsif next_move == "taunt bear" and bear_moved
       dead("the bear gets pissed off and chews you")
-    elsif next_move
+    elsif next_move == "open door" and bear_moved
+      gold_room()
+    else
+      puts "I got no idea what that means"
+    end
+  end
+end
+
+def cthulu_room()
+  
