@@ -31,4 +31,5 @@ def bear_room()
   while true
     prompt; next_move = gets.chomp
 
-    if 
+    if next_move == "take honey"
+      dead("the bear looks at you and slap you")
