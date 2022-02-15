@@ -21,4 +21,3 @@ puts "Check file operations"
 
 tuckshop_and_beverage(90+1, 77*9, 65-9)
 tuckshop_and_beverage(bread_new + 99, biscuits +12, cooking_oil + 55)
-
