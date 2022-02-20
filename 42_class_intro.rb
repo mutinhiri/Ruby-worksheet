@@ -8,3 +8,6 @@ class TheThing
   def some_function()
     puts "I got called"
   end
+
+  def add_me_up(more)
+    @number += more
