@@ -54,4 +54,4 @@ def laser_weapon_armory()
   guess = gets.chomp
   guesses = 0
 
-  while guess != code
+  while guess != code and guesses < 10
