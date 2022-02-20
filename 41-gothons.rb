@@ -47,4 +47,5 @@ end
 
 def laser_weapon_armory()
   puts "Yo dive in weapon armory"
-  puts "For more people hiding"puts 
+  puts "For more people hiding"
+  puts "stnd and run on the far side of the room"
