@@ -71,6 +71,12 @@ def laser_weapon_armory()
     puts "melting sound as the mechanics is fused"
     puts "You decide to sit there finally"
     puts " Ship from their ship and you die"
+    return :death
+  end
+end
+
+def the_bridge()
+  
 
 
 
