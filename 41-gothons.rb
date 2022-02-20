@@ -69,6 +69,8 @@ def laser_weapon_armory()
   else
     puts "The lock buzzes one last time and run"
     puts "melting sound as the mechanics is fused"
+    puts "You decide to sit there finally"
+    puts
 
 
 
