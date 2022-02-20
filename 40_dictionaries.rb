@@ -7,3 +7,6 @@ stuff[1] = "Wow"
 stuff[2] = 'Neato'
 
 puts stuff
+stuff.delete(1)
+stuff.delete(:name)
+puts stuff
