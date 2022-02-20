@@ -22,3 +22,6 @@ def central_corridor()
 
   prompt()
   action = gets.chomp()
+
+  if action == "shoot!"
+    puts ""
