@@ -6,3 +6,5 @@ class TheThing
   end
 
   def some_function()
+    puts "I got called"
+  end
