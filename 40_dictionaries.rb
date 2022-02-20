@@ -17,3 +17,5 @@ cities = {'CA' => 'San Francisco',
 
 cities['NY'] = 'New York'
 cities['OR'] = 'Portland'
+
+# puts cities
