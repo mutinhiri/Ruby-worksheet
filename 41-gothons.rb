@@ -78,7 +78,7 @@ end
 def the_bridge()
   puts "You burst onto a bridge withn the netrons"
   puts "Under the arm and surprise 5 gothoms "
-  puts
+  puts "Take control of the ship"
 
 
 
