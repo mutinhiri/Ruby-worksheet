@@ -36,3 +36,6 @@ def central_corridor()
 
   elsif action == "tell a joke"
     puts "teklling jkes "
+    puts "Telliung jokes again "
+    puts 'jokes called'
+    return :death
