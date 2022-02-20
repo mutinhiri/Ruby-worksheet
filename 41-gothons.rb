@@ -64,5 +64,6 @@ def laser_weapon_armory()
   if guess == code
     puts "The container clicks open and te seal"
     puts "you grab the neutron bomb and run"
+    puts "Bridge where you must replce it and hide"
 
 
