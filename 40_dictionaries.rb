@@ -19,3 +19,6 @@ cities['NY'] = 'New York'
 cities['OR'] = 'Portland'
 
 # puts cities
+
+def find_city(map,state)
+  if map.include? state
