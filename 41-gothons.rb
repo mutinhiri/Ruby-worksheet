@@ -104,3 +104,6 @@ def the_bridge()
     return :the_bridge
   end
 end
+
+def escape_pod()
+  
