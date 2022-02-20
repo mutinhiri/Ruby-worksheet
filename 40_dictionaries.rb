@@ -10,3 +10,5 @@ stuff[2] = 'Neato'
 stuff.delete(1)
 stuff.delete(:name)
 # puts stuff
+
+cities = {}
