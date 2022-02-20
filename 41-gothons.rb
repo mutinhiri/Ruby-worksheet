@@ -130,6 +130,9 @@ def escape_pod()
   end
 end
 
+ROOMS = {
+  :death => method(:death)
+}
 
 
 
