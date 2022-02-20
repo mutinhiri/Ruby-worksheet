@@ -76,7 +76,9 @@ def laser_weapon_armory()
 end
 
 def the_bridge()
-  
+  puts "You burst onto a bridge withn the netrons"
+  puts
+
 
 
 
