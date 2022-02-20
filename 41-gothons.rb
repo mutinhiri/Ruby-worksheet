@@ -56,3 +56,5 @@ def laser_weapon_armory()
 
   while guess != code and guesses < 10
     puts "BZZZZEDD"
+    guesses += 1
+    
