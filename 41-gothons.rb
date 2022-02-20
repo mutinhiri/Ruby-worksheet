@@ -46,3 +46,4 @@ def central_corridor()
 end
 
 def laser_weapon_armory()
+  puts "Yo dive in weapon armory"
