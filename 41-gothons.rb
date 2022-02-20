@@ -82,6 +82,10 @@ def the_bridge()
   puts "arm and dont want to set it off"
 
   prompt()
+  action = gets.chomp()
+
+  if action == "throw the bomb"
+    puts
 
 
 
