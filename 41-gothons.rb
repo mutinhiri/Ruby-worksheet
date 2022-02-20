@@ -24,4 +24,6 @@ def central_corridor()
   action = gets.chomp()
 
   if action == "shoot!"
-    puts ""
+    puts "Shooting"
+    puts "shooting called"
+    return :death
