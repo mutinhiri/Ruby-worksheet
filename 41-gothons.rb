@@ -86,6 +86,8 @@ def the_bridge()
 
   if action == "throw the bomb"
     puts "puts in panic mode and throw the bomb"
+    puts "And make a leap for the door"
+    puts "Gotham shoots you right in the back"
 
 
 
