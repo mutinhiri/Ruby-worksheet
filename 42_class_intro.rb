@@ -14,3 +14,5 @@ class TheThing
     return @number
   end
 end
+
+a = TheThing.new
