@@ -11,3 +11,6 @@ class TheThing
 
   def add_me_up(more)
     @number += more
+    return @number
+  end
+end
