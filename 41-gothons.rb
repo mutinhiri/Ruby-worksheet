@@ -97,4 +97,4 @@ def the_bridge()
     puts "You point your blaster at the bomb"
     puts "bomb slowly placed "
     puts "Bomb placed slowly"
-    puts ""
+    puts "Action ca;led for bomb placed "
