@@ -117,6 +117,8 @@ def escape_pod()
   guess = gets.chomp()
 
   if guess.to_i != good_pod
-    puts "You jump into the pod %s and hit the eject "
+    puts "You jump into the pod %s and hit the eject"
+    puts "guess not equal to pod"
+    
 
 
