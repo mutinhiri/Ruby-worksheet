@@ -108,4 +108,5 @@ end
 def escape_pod()
   puts "You rush through the shipm desperately"
   puts "Escape pod called"
+  puts "This is call inside escape pod"
 
