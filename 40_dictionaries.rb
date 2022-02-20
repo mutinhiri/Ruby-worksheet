@@ -30,11 +30,11 @@ end
 
 cities[:find] = method(:find_city)
 
-while true
+while false
   print "State? (Enter to quit)"
   state = gets.chomp
 
   break if state.empty?
 
-  puts cities[:find].call(cities, state)
+  # puts cities[:find].call(cities, state)
 end
