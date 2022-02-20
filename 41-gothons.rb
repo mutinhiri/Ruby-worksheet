@@ -120,6 +120,9 @@ def escape_pod()
     puts "You jump into the pod %s and hit the eject"
     puts "guess not equal to pod"
     puts "return if pod is not equal"
+    return :death
+  else
+    puts "You jump intyo the pod %s"
 
 
 
