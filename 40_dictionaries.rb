@@ -11,4 +11,6 @@ stuff.delete(1)
 stuff.delete(:name)
 # puts stuff
 
-cities = {}
+cities = {'CA' => 'San Francisco',
+'MI' => 'Detroit',
+'FL' => 'Jacksonville'}
