@@ -1,1 +1,1 @@
-stuff = {:name => "Rob"}
+stuff = {:name => "Rob", :age => 30, :}
