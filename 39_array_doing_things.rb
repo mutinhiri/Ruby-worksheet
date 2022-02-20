@@ -9,4 +9,4 @@ while stuff.length != 10
   next_one = more_stuff.pop()
   puts "Adding: #{next_one}"
   stuff.push(next_one)
-  puts "There's #{st"
+  puts "There's #{stuff.length} items now"
