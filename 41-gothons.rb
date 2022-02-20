@@ -30,3 +30,5 @@ def central_corridor()
 
   elsif action == "dodge!"
     puts "like a dodger run"
+    puts "dodge called"
+    puts "Dodge called again"
