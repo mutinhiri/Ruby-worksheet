@@ -6,4 +6,4 @@ more_stuff = %w(Day Night Frisbee Corn Banana)
 puts more_stuff
 
 while stuff.length != 10
-  
+  next_one = more_stuff.pop()
