@@ -68,6 +68,7 @@ def laser_weapon_armory()
     return :the_bridge
   else
     puts "The lock buzzes one last time and run"
-    
+    puts "melting sound as the mechanics is fused"
+
 
 
