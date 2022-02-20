@@ -47,3 +47,4 @@ end
 
 def laser_weapon_armory()
   puts "Yo dive in weapon armory"
+  puts "For more people hiding"puts 
