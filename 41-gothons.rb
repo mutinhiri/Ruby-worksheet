@@ -32,3 +32,4 @@ def central_corridor()
     puts "like a dodger run"
     puts "dodge called"
     puts "Dodge called again"
+    return :death
