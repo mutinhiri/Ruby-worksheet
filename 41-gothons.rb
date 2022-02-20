@@ -126,6 +126,11 @@ def escape_pod()
     puts "the pod slides easily into the space"
     puts "return if pod is equal to guess"
     puts "time. you won"
+    Process.exit(0)
+  end
+end
+
+
 
 
 
