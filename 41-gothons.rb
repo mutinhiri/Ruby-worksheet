@@ -33,3 +33,6 @@ def central_corridor()
     puts "dodge called"
     puts "Dodge called again"
     return :death
+
+  elsif action == "tell a joke"
+    puts "teklling jkes "
