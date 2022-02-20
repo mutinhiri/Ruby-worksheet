@@ -1,2 +1,2 @@
 ten_things = "Apples Oranges Crows Telephone Lights Snooker"
-puts ten_things[10]
+puts 'wait there are no 10 things in the array'
