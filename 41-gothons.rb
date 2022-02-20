@@ -131,7 +131,8 @@ def escape_pod()
 end
 
 ROOMS = {
-  :death => method(:death)
+  :death => method(:death),
+  :central_corridor => method(:central_corridor)
 }
 
 
