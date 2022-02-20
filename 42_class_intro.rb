@@ -23,3 +23,4 @@ b.some_function()
 
 puts a.add_me_up(20)
 puts a.add_me_up(20)
+puts b.add_me_up(30)
