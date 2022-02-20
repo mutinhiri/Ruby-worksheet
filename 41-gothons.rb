@@ -44,3 +44,5 @@ def central_corridor()
     return :central_corridor
   end
 end
+
+def laser_weapon_armory()
