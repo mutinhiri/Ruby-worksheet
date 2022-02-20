@@ -135,7 +135,7 @@ ROOMS = {
   :central_corridor => method(:central_corridor),
   :laser_weapon_armory => method(:laser_weapon_armory),
   :the_bridge => method(:the_bridge),
-  
+  :escape_pod => method(:escape_pod)
 }
 
 
