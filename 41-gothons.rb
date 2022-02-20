@@ -98,3 +98,9 @@ def the_bridge()
     puts "bomb slowly placed "
     puts "Bomb placed slowly"
     puts "Action ca;led for bomb placed "
+    return :escape_pod
+  else
+    puts "DOES NOT COMPUTE!"
+    return :the_bridge
+  end
+end
