@@ -112,3 +112,5 @@ def escape_pod()
   puts "time. You won!"
   puts "do you take"
 
+  good_pod = rand(5)+1
+
