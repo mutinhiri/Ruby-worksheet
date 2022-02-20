@@ -2,7 +2,7 @@ class TheThing
   attr_reader :number
 
   def initialize(number)
-    @number = 0
+    @number = number
   end
 
   def some_function()
@@ -16,7 +16,7 @@ class TheThing
 end
 
 a = TheThing.new(19)
-b = TheThing.new
+b = TheThing.new(10)
 
 a.some_function()
 b.some_function()
