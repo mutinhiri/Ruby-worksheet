@@ -20,3 +20,6 @@ b = TheThing.new
 
 a.some_function()
 b.some_function()
+
+puts a.add_me_up(20)
+puts a.add_me_up(20)
