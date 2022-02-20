@@ -81,6 +81,8 @@ def the_bridge()
   puts "Take control of the ship"
   puts "arm and dont want to set it off"
 
+  prompt()
+
 
 
 
