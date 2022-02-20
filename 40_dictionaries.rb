@@ -3,3 +3,7 @@ puts stuff[:name]
 stuff[:city] = "Harare"
 
 puts stuff[:city]
+stuff[1] = "Wow"
+stuff[2] = 'Neato'
+
+puts stuff
