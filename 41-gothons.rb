@@ -139,6 +139,12 @@ ROOMS = {
 }
 
 def runner(map, start)
+  next_one = start
+
+  while true
+    room = map[next_one]
+    puts "\n.........."
+    next_one = room.call()
 
 
 
