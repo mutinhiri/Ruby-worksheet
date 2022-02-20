@@ -113,4 +113,6 @@ def escape_pod()
   puts "do you take"
 
   good_pod = rand(5)+1
+  print "[pod #]>"
+  
 
