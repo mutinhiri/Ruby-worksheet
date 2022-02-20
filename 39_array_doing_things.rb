@@ -10,3 +10,8 @@ while stuff.length != 10
   puts "Adding: #{next_one}"
   stuff.push(next_one)
   puts "There's #{stuff.length} items now"
+end
+
+puts "There we go: #{stuff}"
+
+puts 
