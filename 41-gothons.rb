@@ -11,5 +11,10 @@ puts quips[rand(quips.length())]
 Process.exit(1)
 end
 
-puts prompt
-return :death
+def central_corridor()
+  puts "The ghettonof Rimuka can be a hub of good activities"
+  puts "youths can work to make the name of the town imapctfull"
+  puts "We can connect to all business model and interest can be saved"
+  puts "Education for all"
+  puts "\n"
+  puts "We need more practice sessions with all "
