@@ -19,3 +19,6 @@ def central_corridor()
   puts "\n"
   puts "We need more practice sessions with all "
   puts 'this line should end here'
+
+  prompt()
+  action = gets.chomp()
