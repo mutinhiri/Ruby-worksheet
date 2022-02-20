@@ -90,8 +90,5 @@ def the_bridge()
     puts "Gotham shoots you right in the back"
     puts "throw bomb exec"
     puts "throw method called"
-
-
-
-
-
+    puts 'It goes off'
+    return :death
