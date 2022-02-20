@@ -27,3 +27,6 @@ def central_corridor()
     puts "Shooting"
     puts "shooting called"
     return :death
+
+  elsif action == "dodge!"
+    puts "like a dodger run"
