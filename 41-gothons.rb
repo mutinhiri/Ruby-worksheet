@@ -61,4 +61,7 @@ def laser_weapon_armory()
     guess = gets.chomp()
   end
 
-  
+  if guess == code
+    puts "The container clicks open and te seal"
+    
+
