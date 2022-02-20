@@ -36,7 +36,7 @@ def central_corridor()
 
   elsif action == "tell a joke"
     puts "teklling jkes "
-    puts "Telliung jokes again "
+    puts "Tellung jokes again "
     puts 'jokes called'
     return :death
   else
@@ -51,3 +51,7 @@ def laser_weapon_armory()
   puts "stnd and run on the far side of the room"
   code = "%s%s%s" % [rand(9)+1, rand(9)+1, rand(9)+1]
   print "[keypad]"
+  guess = gets.chomp
+  guesses = 0
+
+  while guess != code
