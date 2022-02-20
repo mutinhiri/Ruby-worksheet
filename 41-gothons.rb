@@ -18,3 +18,4 @@ def central_corridor()
   puts "Education for all"
   puts "\n"
   puts "We need more practice sessions with all "
+  puts 'this line should end here'
