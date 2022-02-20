@@ -122,7 +122,9 @@ def escape_pod()
     puts "return if pod is not equal"
     return :death
   else
-    puts "You jump intyo the pod %s"
+    puts "You jump intyo the pod %s and hit the eject"
+    puts "the pod slides easily into the space"
+    "return if pod is equal to guess"
 
 
 
