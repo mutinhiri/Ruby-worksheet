@@ -5,4 +5,4 @@ class TheThing
     @number = 0
   end
 
-  
+  def some_function()
