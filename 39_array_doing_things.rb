@@ -20,3 +20,4 @@ puts stuff[1]
 puts stuff[-1]
 puts stuff.pop()
 puts stuff.join(' ') # what cool!
+puts stuff.values_at(3,5).join('#')
