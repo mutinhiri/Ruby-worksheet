@@ -106,4 +106,5 @@ def the_bridge()
 end
 
 def escape_pod()
-  
+  puts "You rush through the shipm desperately"
+
