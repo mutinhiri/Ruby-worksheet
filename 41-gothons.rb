@@ -138,7 +138,7 @@ ROOMS = {
   :escape_pod => method(:escape_pod)
 }
 
-
+def runner(map, start)
 
 
 
