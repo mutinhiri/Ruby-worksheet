@@ -39,3 +39,8 @@ def central_corridor()
     puts "Telliung jokes again "
     puts 'jokes called'
     return :death
+  else
+    puts "Does NOT compute"
+    return :central_corridor
+  end
+end
