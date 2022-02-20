@@ -22,3 +22,8 @@ cities['OR'] = 'Portland'
 
 def find_city(map,state)
   if map.include? state
+    return map[state]
+  else
+    return "Not Fpund"
+  end
+end
