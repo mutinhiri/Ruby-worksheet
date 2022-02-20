@@ -133,7 +133,9 @@ end
 ROOMS = {
   :death => method(:death),
   :central_corridor => method(:central_corridor),
-  :laser_weapon_armory => method(:laser_weapon_armory)
+  :laser_weapon_armory => method(:laser_weapon_armory),
+  :the_bridge => method(:the_bridge),
+  
 }
 
 
