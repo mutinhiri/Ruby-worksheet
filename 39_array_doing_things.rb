@@ -15,3 +15,5 @@ end
 puts "There we go: #{stuff}"
 
 puts "Lets do some things with stuff"
+
+puts stuff[1]
