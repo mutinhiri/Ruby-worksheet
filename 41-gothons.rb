@@ -85,7 +85,7 @@ def the_bridge()
   action = gets.chomp()
 
   if action == "throw the bomb"
-    puts
+    puts "puts in panic mode and throw the bomb"
 
 
 
