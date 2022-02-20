@@ -145,6 +145,10 @@ def runner(map, start)
     room = map[next_one]
     puts "\n.........."
     next_one = room.call()
+  end
+end
+
+runner(ROOMS, :central_corridor)
 
 
 
