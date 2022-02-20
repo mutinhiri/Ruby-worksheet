@@ -70,7 +70,7 @@ def laser_weapon_armory()
     puts "The lock buzzes one last time and run"
     puts "melting sound as the mechanics is fused"
     puts "You decide to sit there finally"
-    puts
+    puts " Ship from their ship and you die"
 
 
 
