@@ -18,5 +18,5 @@ end
 a = TheThing.new
 b = TheThing.new
 
-a.some_function
-b.some_function
+a.some_function()
+b.some_function()
