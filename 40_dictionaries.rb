@@ -1,12 +1,12 @@
 stuff = {:name => "Rob", :age => 30, :height => 70}
-puts stuff[:name]
+# puts stuff[:name]
 stuff[:city] = "Harare"
 
-puts stuff[:city]
+# puts stuff[:city]
 stuff[1] = "Wow"
 stuff[2] = 'Neato'
 
-puts stuff
+# puts stuff
 stuff.delete(1)
 stuff.delete(:name)
-puts stuff
+# puts stuff
