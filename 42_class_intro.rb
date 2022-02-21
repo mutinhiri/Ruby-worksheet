@@ -83,4 +83,9 @@ def laser_weapon_armory()
   while guess != code and guesses < 10
     puts "BZZZEDDD"
     guesses += 1
-    
+    print "[keypad]>"
+    guess = gets.chomp()
+  end
+
+  
+
