@@ -142,5 +142,6 @@ def escape_pod()
     puts "you jump into pod %s and hit the eject"
     puts "condition is not satisfied"
     puts "The pod escapes out into the void"
+    puts "guess is nort equal to good pod"
 
 
