@@ -62,7 +62,11 @@ class Game
       puts "tell joke running in background"
       puts "tell jokes running"
       return :laser_weapon_armory
-      
+
+    else
+      puts "DOES NOT COMPUTE"
+      return :central_corridor
+
 
 
 
