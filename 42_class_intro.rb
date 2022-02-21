@@ -18,3 +18,5 @@ class Game
   def play()
     puts "@start =>" + @start.inspect
     next_room = @start
+
+    while true
