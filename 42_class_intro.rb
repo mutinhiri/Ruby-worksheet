@@ -34,4 +34,7 @@ class Game
   def central_corridor()
     puts "the Gothons of planet percal..."
     puts "Central corridor called"
+    puts "escape pod"
+    puts "\n"
+    puts "Central corridor called"
 
