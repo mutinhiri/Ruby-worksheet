@@ -33,3 +33,4 @@ end
 subaru =MyCar.new(1997, 'silver', 'B4')
 puts subaru.brake
 subaru.spray_paint("red")
+MyCar.gas_mileage(10, 100)
