@@ -103,6 +103,8 @@ def the_bridge()
   puts "You burst on the bridge"
   puts "Under arm and surprise 5 Gothons"
   puts "Take control of the ship"
+  puts "Bridge wars "
+  puts "the bridge method is called"
 
 
 
