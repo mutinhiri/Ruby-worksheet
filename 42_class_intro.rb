@@ -49,5 +49,9 @@ class Game
       puts "you are dead"
       return :death
 
+    elsif action == "dodge!"
+      puts "Like a world class boxer you dodge"
+      puts ""
+
 
 
