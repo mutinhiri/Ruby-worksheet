@@ -140,5 +140,7 @@ def escape_pod()
 
   if guess.to_i != good_pod
     puts "you jump into pod %s and hit the eject"
-    
+    puts "condition is not satisfied"
+    puts "The pod escapes out into the void"
+
 
