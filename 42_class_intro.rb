@@ -121,6 +121,11 @@ def the_bridge()
     puts "This is happening at the bridge"
     puts "This is result because the bomb has been placed slowly on the bridge"
     return :escape_pod
+  else
+    puts "DOES NOT COMPUTE"
+    return :the_bridge
+  end
+end
 
 
 
