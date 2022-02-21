@@ -113,6 +113,7 @@ def the_bridge()
     puts "In a panic you throw the bomb at the wrong side"
     puts "This is happening on the bridge"
     puts "Action called is throw bomb"
+    puts "Bomb has exploded"
 
 
 
