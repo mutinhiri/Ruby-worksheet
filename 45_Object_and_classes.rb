@@ -10,4 +10,6 @@ class MyCar
   def speed_up
     puts 'speeding the car'
   end
-  
+
+  def brake
+    puts "The car has been applied brakes"
