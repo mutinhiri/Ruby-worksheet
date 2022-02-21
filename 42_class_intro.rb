@@ -143,5 +143,6 @@ def escape_pod()
     puts "condition is not satisfied"
     puts "The pod escapes out into the void"
     puts "guess is nort equal to good pod"
+    return :death
 
 
