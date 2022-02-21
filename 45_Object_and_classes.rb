@@ -11,8 +11,10 @@ class MyCar
 
   def speed_up()
     puts 'speeding the car'
-
   end
+  def self.gas_mileage(literes, km)
+    puts "#{km/literes} kilometerse per litre"
+  end  
 
   def brake
     puts "The car has been applied brakes"
