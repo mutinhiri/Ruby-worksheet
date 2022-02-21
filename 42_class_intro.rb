@@ -99,5 +99,8 @@ def laser_weapon_armory()
   end
 end
 
+def the_bridge()
+  puts "You burst on the bridge"
+
 
 
