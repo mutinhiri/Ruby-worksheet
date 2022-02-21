@@ -30,3 +30,6 @@ class Game
     puts @quips[rand(@quips.length())]
     Process.exit(1)
   end
+
+  def central_corridor()
+    
