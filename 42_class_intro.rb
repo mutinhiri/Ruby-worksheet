@@ -14,3 +14,7 @@ class Game
   def prompt()
     print '>'
   end
+
+  def play()
+    puts "@start =>" + @start.inspect
+    next_rom = @start
