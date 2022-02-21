@@ -137,3 +137,6 @@ def escape_pod()
   good_pod = rand(5)+1
   print "[pod #]>"
   guess = gets.chomp()
+
+  if guess.to_i != good_pod
+    
