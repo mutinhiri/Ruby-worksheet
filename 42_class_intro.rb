@@ -114,6 +114,8 @@ def the_bridge()
     puts "This is happening on the bridge"
     puts "Action called is throw bomb"
     puts "Bomb has exploded"
+    return :death
+    
 
 
 
