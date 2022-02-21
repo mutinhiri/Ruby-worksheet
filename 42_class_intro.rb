@@ -41,5 +41,8 @@ class Game
     prompt()
     action = gets.chomp
 
-    
+    if action == "shoot!"
+      puts "Quick to shoot"
+
+
 
