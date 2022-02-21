@@ -32,4 +32,5 @@ class Game
   end
 
   def central_corridor()
-    
+    puts "the Gothons of planet percal..."
+
