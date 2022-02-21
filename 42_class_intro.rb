@@ -10,3 +10,7 @@ class Game
     @start = start
     puts "in init @start = " + @start.inspect
   end
+
+  def prompt()
+    print '>'
+  end
