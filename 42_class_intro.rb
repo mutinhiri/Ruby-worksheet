@@ -51,7 +51,10 @@ class Game
 
     elsif action == "dodge!"
       puts "Like a world class boxer you dodge"
-      puts ""
+      puts "Dodge called"
+      puts "dodge running"
+      puts "Dodge dodge dodge dodge"
+
 
 
 
