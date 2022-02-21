@@ -155,5 +155,6 @@ class Game
   end
 end
 
+a_game = Game.new(:central_corridor)
 
 
