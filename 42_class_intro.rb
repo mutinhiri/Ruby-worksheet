@@ -69,3 +69,5 @@ class Game
     end
   end
 
+def laser_weapon_armory()
+  puts "You dive in the weapn armorn"
