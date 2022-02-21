@@ -28,9 +28,15 @@ class MyCar
     self.color = pendi
     puts "We now painting the car #{color}"
   end
+
+  def to_s
+    "My car is #{color}, #{year}"
+  end
+
 end
 
 subaru =MyCar.new(1997, 'silver', 'B4')
 puts subaru.brake
 subaru.spray_paint("red")
 MyCar.gas_mileage(10, 100)
+puts subaru
