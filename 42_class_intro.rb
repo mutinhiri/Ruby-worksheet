@@ -115,7 +115,9 @@ def the_bridge()
     puts "Action called is throw bomb"
     puts "Bomb has exploded"
     return :death
-    
+
+  elsif action == "slowly place the bomb"
+
 
 
 
