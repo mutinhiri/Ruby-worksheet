@@ -17,4 +17,4 @@ class Game
 
   def play()
     puts "@start =>" + @start.inspect
-    next_rom = @start
+    next_room = @start
