@@ -92,6 +92,8 @@ def laser_weapon_armory()
     puts "Guess is equal to code"
     puts "the bomb is placed at a bridge"
     return :the_bridge
+  else
+    puts "output when the guess was not equal to code"
 
 
 
