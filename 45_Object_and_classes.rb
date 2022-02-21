@@ -6,3 +6,8 @@ class MyCar
     @model = model
     @speed = 0
   end
+
+  def speed_up
+    puts 'speeding the car'
+  end
+  
