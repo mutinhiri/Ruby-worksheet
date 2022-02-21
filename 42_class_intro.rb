@@ -145,4 +145,7 @@ def escape_pod()
     puts "guess is nort equal to good pod"
     return :death
 
+  else
+    puts "You jump into pos %s and hit the eject"
+
 
