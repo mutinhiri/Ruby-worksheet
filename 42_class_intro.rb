@@ -147,5 +147,7 @@ def escape_pod()
 
   else
     puts "You jump into pos %s and hit the eject"
+    puts "the pod easily lides out into space"
+    puts "Guess is equal to good pod"
 
 
