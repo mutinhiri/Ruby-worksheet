@@ -38,3 +38,8 @@ class Game
     puts "\n"
     puts "Central corridor called"
 
+    prompt()
+    action = gets.chomp
+
+    
+
