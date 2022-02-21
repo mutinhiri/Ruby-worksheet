@@ -127,6 +127,6 @@ def the_bridge()
   end
 end
 
-
-
-
+def escape_pod()
+  puts "Yoy rush through the ship desperately"
+  
