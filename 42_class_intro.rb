@@ -43,6 +43,11 @@ class Game
 
     if action == "shoot!"
       puts "Quick to shoot"
+      puts 'Shoot called'
+      puts " shoot running"
+      puts "sghoot shoot"
+      puts "you are dead"
+      return :death
 
 
 
