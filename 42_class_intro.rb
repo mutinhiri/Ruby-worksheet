@@ -58,6 +58,11 @@ class Game
 
     elsif action == "tell a joke"
       puts "luckily you learn from them"
+      puts "Tell joke called"
+      puts "tell joke running in background"
+      puts "tell jokes running"
+      return :laser_weapon_armory
+      
 
 
 
