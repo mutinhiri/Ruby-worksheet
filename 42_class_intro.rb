@@ -131,3 +131,5 @@ def escape_pod()
   puts "Yoy rush through the ship desperately"
   puts "You escape pod before the whole ship sinks"
   puts "No one in the ship"
+  puts "Now need to pick one at a time"
+  puts "escape pod is running"
