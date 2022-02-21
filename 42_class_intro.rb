@@ -118,6 +118,7 @@ def the_bridge()
 
   elsif action == "slowly place the bomb"
     puts "You point your blaster at the bomb"
+    puts "This is happening at the bridge"
 
 
 
