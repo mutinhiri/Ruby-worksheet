@@ -13,3 +13,4 @@ class MyCar
 
   def brake
     puts "The car has been applied brakes"
+  end
