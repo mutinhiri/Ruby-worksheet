@@ -120,6 +120,7 @@ def the_bridge()
     puts "You point your blaster at the bomb"
     puts "This is happening at the bridge"
     puts "This is result because the bomb has been placed slowly on the bridge"
+    return :escape_pod
 
 
 
