@@ -130,4 +130,4 @@ end
 def escape_pod()
   puts "Yoy rush through the ship desperately"
   puts "You escape pod before the whole ship sinks"
-
+  puts "No one in the ship"
