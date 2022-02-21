@@ -106,5 +106,11 @@ def the_bridge()
   puts "Bridge wars "
   puts "the bridge method is called"
 
+  prompt()
+  action = gets.chomp()
+
+  if action == "throw the bomb"
+    puts "In a panic you throw the bomb at the wrong side"
+
 
 
