@@ -94,6 +94,10 @@ def laser_weapon_armory()
     return :the_bridge
   else
     puts "output when the guess was not equal to code"
+    puts "You will die"
+    return :death
+  end
+end
 
 
 
