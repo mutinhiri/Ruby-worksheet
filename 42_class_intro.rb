@@ -57,6 +57,7 @@ class Game
       return :death
 
     elsif action == "tell a joke"
+      puts "luckily you learn from them"
 
 
 
