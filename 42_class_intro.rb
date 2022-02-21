@@ -156,5 +156,6 @@ class Game
 end
 
 a_game = Game.new(:central_corridor)
+a_game.play()
 
 
