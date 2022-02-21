@@ -87,5 +87,11 @@ def laser_weapon_armory()
     guess = gets.chomp()
   end
 
-  
+  if guess == code
+    puts "the container clicks open"
+    puts "Guess is equal to code"
+    puts "the bomb is placed at a bridge"
+    return :the_bridge
+
+
 
