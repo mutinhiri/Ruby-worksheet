@@ -7,3 +7,6 @@ class Game
       "Such a luser.",
       "I have a small puppy that is better at this"
     ]
+    @start = start
+    puts "in init @start = " + @start.inspect
+  end
