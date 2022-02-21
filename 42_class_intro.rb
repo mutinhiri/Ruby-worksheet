@@ -66,6 +66,8 @@ class Game
     else
       puts "DOES NOT COMPUTE"
       return :central_corridor
+    end
+  end
 
 
 
