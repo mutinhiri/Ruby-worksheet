@@ -71,3 +71,4 @@ class Game
 
 def laser_weapon_armory()
   puts "You dive in the weapn armorn"
+  puts "need to decode message here"
