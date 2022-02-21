@@ -77,4 +77,5 @@ def laser_weapon_armory()
   puts "the code is 3 digits."
   code = "%s%s%s" % [rand(9)+1, rand(9)+1, rand(9)+1]
   print "[keypad]"
-  
+  guess = gets.chomp()
+  guesses = 0
