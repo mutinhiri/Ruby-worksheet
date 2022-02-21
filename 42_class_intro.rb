@@ -74,3 +74,5 @@ def laser_weapon_armory()
   puts "need to decode message here"
   puts "laser weapon called and running"
   puts "laser weapon called"
+  puts "the code is 3 digits."
+  code = "%s%s%s" % [rand(9)+1, rand(9)+1, rand(9)+1]
