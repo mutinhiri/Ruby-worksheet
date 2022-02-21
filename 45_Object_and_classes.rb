@@ -21,8 +21,13 @@ class MyCar
   def shut_off
     puts "the car has been shut off"
   end
+
+  def spray_paint( pendi)
+    self.color = pendi
+    puts "We now painting the car #{color}"
+  end
 end
 
 subaru =MyCar.new(1997, 'silver', 'B4')
 puts subaru.brake
-subaru
+subaru.spray_paint("red")
