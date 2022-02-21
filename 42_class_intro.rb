@@ -69,85 +69,91 @@ class Game
     end
   end
 
-def laser_weapon_armory()
-  puts "You dive in the weapn armorn"
-  puts "need to decode message here"
-  puts "laser weapon called and running"
-  puts "laser weapon called"
-  puts "the code is 3 digits."
-  code = "%s%s%s" % [rand(9)+1, rand(9)+1, rand(9)+1]
-  print "[keypad]"
-  guess = gets.chomp()
-  guesses = 0
-
-  while guess != code and guesses < 10
-    puts "BZZZEDDD"
-    guesses += 1
-    print "[keypad]>"
+    def laser_weapon_armory()
+    puts "You dive in the weapn armorn"
+    puts "need to decode message here"
+    puts "laser weapon called and running"
+    puts "laser weapon called"
+    puts "the code is 3 digits."
+    code = "%s%s%s" % [rand(9)+1, rand(9)+1, rand(9)+1]
+    print "[keypad]"
     guess = gets.chomp()
-  end
+    guesses = 0
 
-  if guess == code
-    puts "the container clicks open"
-    puts "Guess is equal to code"
-    puts "the bomb is placed at a bridge"
-    return :the_bridge
-  else
-    puts "output when the guess was not equal to code"
-    puts "You will die"
-    return :death
+    while guess != code and guesses < 10
+      puts "BZZZEDDD"
+      guesses += 1
+      print "[keypad]>"
+      guess = gets.chomp()
+    end
+
+    if guess == code
+      puts "the container clicks open"
+      puts "Guess is equal to code"
+      puts "the bomb is placed at a bridge"
+      return :the_bridge
+    else
+      puts "output when the guess was not equal to code"
+      puts "You will die"
+      return :death
+    end
+    end
+
+    def the_bridge()
+    puts "You burst on the bridge"
+    puts "Under arm and surprise 5 Gothons"
+    puts "Take control of the ship"
+    puts "Bridge wars "
+    puts "the bridge method is called"
+
+    prompt()
+    action = gets.chomp()
+
+    if action == "throw the bomb"
+      puts "In a panic you throw the bomb at the wrong side"
+      puts "This is happening on the bridge"
+      puts "Action called is throw bomb"
+      puts "Bomb has exploded"
+      return :death
+
+    elsif action == "slowly place the bomb"
+      puts "You point your blaster at the bomb"
+      puts "This is happening at the bridge"
+      puts "This is result because the bomb has been placed slowly on the bridge"
+      return :escape_pod
+    else
+      puts "DOES NOT COMPUTE"
+      return :the_bridge
+    end
+    end
+
+    def escape_pod()
+    puts "Yoy rush through the ship desperately"
+    puts "You escape pod before the whole ship sinks"
+    puts "No one in the ship"
+    puts "Now need to pick one at a time"
+    puts "escape pod is running"
+
+    good_pod = rand(5)+1
+    print "[pod #]>"
+    guess = gets.chomp()
+
+    if guess.to_i != good_pod
+      puts "you jump into pod %s and hit the eject"
+      puts "condition is not satisfied"
+      puts "The pod escapes out into the void"
+      puts "guess is nort equal to good pod"
+      return :death
+
+    else
+      puts "You jump into pos %s and hit the eject"
+      puts "the pod easily lides out into space"
+      puts "Guess is equal to good pod"
+      puts "you win"
+      Process.exit(0)
+    end
   end
 end
 
-def the_bridge()
-  puts "You burst on the bridge"
-  puts "Under arm and surprise 5 Gothons"
-  puts "Take control of the ship"
-  puts "Bridge wars "
-  puts "the bridge method is called"
-
-  prompt()
-  action = gets.chomp()
-
-  if action == "throw the bomb"
-    puts "In a panic you throw the bomb at the wrong side"
-    puts "This is happening on the bridge"
-    puts "Action called is throw bomb"
-    puts "Bomb has exploded"
-    return :death
-
-  elsif action == "slowly place the bomb"
-    puts "You point your blaster at the bomb"
-    puts "This is happening at the bridge"
-    puts "This is result because the bomb has been placed slowly on the bridge"
-    return :escape_pod
-  else
-    puts "DOES NOT COMPUTE"
-    return :the_bridge
-  end
-end
-
-def escape_pod()
-  puts "Yoy rush through the ship desperately"
-  puts "You escape pod before the whole ship sinks"
-  puts "No one in the ship"
-  puts "Now need to pick one at a time"
-  puts "escape pod is running"
-
-  good_pod = rand(5)+1
-  print "[pod #]>"
-  guess = gets.chomp()
-
-  if guess.to_i != good_pod
-    puts "you jump into pod %s and hit the eject"
-    puts "condition is not satisfied"
-    puts "The pod escapes out into the void"
-    puts "guess is nort equal to good pod"
-    return :death
-
-  else
-    puts "You jump into pos %s and hit the eject"
-    puts "the pod easily lides out into space"
-    puts "Guess is equal to good pod"
 
 
