@@ -73,3 +73,4 @@ def laser_weapon_armory()
   puts "You dive in the weapn armorn"
   puts "need to decode message here"
   puts "laser weapon called and running"
+  puts "laser weapon called"
