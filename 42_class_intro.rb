@@ -22,3 +22,6 @@ class Game
     while true
       puts "\n-------"
       room = method(next_room)
+      next_room = room.call()
+    end
+  end
