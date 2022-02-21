@@ -133,3 +133,7 @@ def escape_pod()
   puts "No one in the ship"
   puts "Now need to pick one at a time"
   puts "escape pod is running"
+
+  good_pod = rand(5)+1
+  print "[pod #]>"
+  guess = gets.chomp()
