@@ -25,3 +25,5 @@ class Game
       next_room = room.call()
     end
   end
+
+  def death()
