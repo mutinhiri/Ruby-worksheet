@@ -20,3 +20,4 @@ class Game
     next_room = @start
 
     while true
+      puts "\n-------"
