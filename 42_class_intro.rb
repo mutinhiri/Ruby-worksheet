@@ -117,6 +117,7 @@ def the_bridge()
     return :death
 
   elsif action == "slowly place the bomb"
+    puts "You point your blaster at the bomb"
 
 
 
