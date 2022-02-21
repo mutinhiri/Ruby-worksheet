@@ -54,6 +54,9 @@ class Game
       puts "Dodge called"
       puts "dodge running"
       puts "Dodge dodge dodge dodge"
+      return :death
+
+    elsif action == "tell a joke"
 
 
 
