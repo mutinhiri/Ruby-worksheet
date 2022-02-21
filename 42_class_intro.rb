@@ -111,6 +111,8 @@ def the_bridge()
 
   if action == "throw the bomb"
     puts "In a panic you throw the bomb at the wrong side"
+    puts "This is happening on the bridge"
+    puts "Action called is throw bomb"
 
 
 
