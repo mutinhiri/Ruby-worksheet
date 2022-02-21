@@ -69,7 +69,3 @@ class Game
     end
   end
 
-
-
-
-
