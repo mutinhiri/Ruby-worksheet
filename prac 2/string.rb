@@ -8,5 +8,5 @@ name = gets.chomp
 
 # p result
 p "Your name has #{name.length} caracters in it"
-puts "your name reversed is #{name.reverse!}"
+puts "your name reversed is #{name.reverse}"
 
