@@ -1,5 +1,5 @@
 puts "what is your name"
 
 name = gets.chomp
-puts 
+puts "enter number tultipky"
 
