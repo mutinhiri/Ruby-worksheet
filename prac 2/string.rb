@@ -1,4 +1,6 @@
 puts "welcome to testing app"
+
+puts "Enter num 1"
 25.times { puts "_"}
 num_1 = gets.chomp.to_i
 puts "Enter second number"
