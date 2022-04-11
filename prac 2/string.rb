@@ -1,4 +1,4 @@
 sentence = "welcome to investment platform"
-name = sentence.sub("investment", "agriculyte")
+sentence.sub("investment", "agriculyte")
 
-p name
+p sentence
