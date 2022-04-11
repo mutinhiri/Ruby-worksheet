@@ -8,4 +8,4 @@ num2 = gets.chomp.to_f
 puts 'Now clculating average'
 
 10.times { puts "-"}
-puts "your average score is #{avg(num1, num2)}"
+puts "your average score is #{average(num1, num2)}"
