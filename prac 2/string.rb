@@ -4,5 +4,5 @@ name = gets.chomp
 puts "enter number tultipky"
 num = gets.chomp.to_i
 
-result 
+result = "Hello bunbee, you will get #{num} value"
 
