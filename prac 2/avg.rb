@@ -7,5 +7,5 @@ puts 'Enter num 2'
 num2 = gets.chomp.to_f
 puts 'Now clculating average'
 
-
+10.times { puts "-"}
 puts "your average score is #{avg(result)}"
