@@ -6,3 +6,5 @@ num1 = gets.chomp.to_i
 puts 'Enter num 2'
 num2 = gets.chomp.to_f
 puts 'Now clculating average'
+
+puts 'your average score is '
