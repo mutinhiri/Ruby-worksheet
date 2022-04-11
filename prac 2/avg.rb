@@ -1,1 +1,1 @@
-puts "this is an average count app"
+puts "Methods "
