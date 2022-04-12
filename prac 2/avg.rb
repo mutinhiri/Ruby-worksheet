@@ -4,8 +4,9 @@ def letters(words)
     arr = words.split()
     for i in arr
          output = i.reverse()
+         puts output.join("")
     end
-    put output
+    puts output
 end
 
 letters('Hello bunbee')
