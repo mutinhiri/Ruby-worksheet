@@ -13,4 +13,4 @@
 
 
 ## hashes 
-sample_hash = {'a' => 1}
+sample_hash = {'a' => 1, 'b' => => 2}
