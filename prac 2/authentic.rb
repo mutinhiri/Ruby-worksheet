@@ -26,5 +26,8 @@ attempts = 1
 while attempts < 4
     puts "press n to quit or any other key to continue"
     input = gets.chomp.downcase
+    if input == 'n'
+        break
+    end
     attempts += 1
 end
