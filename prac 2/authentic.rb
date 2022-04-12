@@ -26,6 +26,8 @@ attempts = 1
 while attempts < 4
     print 'Username: '
     username = gets.chomp
+    print 'Password: '
+    password = gets.chomp
     puts "press n to quit or any other key to continue"
     input = gets.chomp.downcase
     if input == 'n'
