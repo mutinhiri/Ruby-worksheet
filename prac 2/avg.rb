@@ -13,4 +13,4 @@
 
 
 ## hashes 
-sample
+sample_hash = {'a' => 1}
