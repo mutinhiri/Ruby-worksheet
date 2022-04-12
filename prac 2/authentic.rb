@@ -25,3 +25,6 @@ puts "If password is correct user object is returned "
 attempts = 1
 while attempts < 4
     puts "press n to quit or any other key to continue"
+    input = gets.chomp.downcase
+    attempts += 1
+end
