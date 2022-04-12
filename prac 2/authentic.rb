@@ -17,4 +17,4 @@ while i < 3
     if uname == 'user1'
         puts 'user 1 selected'
     else
-        
+        puts "check user name"
