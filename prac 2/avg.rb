@@ -16,3 +16,6 @@
 sample_hash = {'a' => 1, 'b' => 2, 'c' => 3}
 
 my_hash = {}
+
+sample_hash.each do |key, value| 
+    puts "the class for key is #{key.class} and the value "
