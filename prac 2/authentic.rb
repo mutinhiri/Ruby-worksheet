@@ -28,6 +28,8 @@ while attempts < 4
     username = gets.chomp
     print 'Password: '
     password = gets.chomp
+    users.each do |person|
+        if person[:user]
     puts "press n to quit or any other key to continue"
     input = gets.chomp.downcase
     if input == 'n'
