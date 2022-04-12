@@ -7,4 +7,4 @@ users = [
 
 puts "welcome to user app"
 25.times { print "_-"}
-puts
+puts 
