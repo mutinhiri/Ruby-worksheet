@@ -5,6 +5,7 @@ def letters(words)
     for i in arr
          output = i.reverse()
     end
+    put output
 end
 
 letters('Hello bunbee')
