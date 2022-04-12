@@ -18,3 +18,6 @@ while i < 3
         puts 'user 1 selected'
     else
         puts "check user name"
+    end
+    i ++
+end
