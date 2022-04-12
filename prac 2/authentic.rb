@@ -8,4 +8,4 @@ users = [
 puts "welcome to user app"
 25.times { print "_-"}
 puts 
-puts ""
+puts "This program will take input from the user and compare the password"
