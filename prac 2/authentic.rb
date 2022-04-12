@@ -14,4 +14,7 @@ puts "If password is correct user object is returned "
 while i < 3
     puts "Enter username"
     uname = gets.chomp
-    
+    if uname == 'user1'
+        puts 'user 1 selected'
+    else
+        
