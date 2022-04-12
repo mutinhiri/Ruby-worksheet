@@ -21,3 +21,7 @@ puts "If password is correct user object is returned "
 #     end
 #     i ++
 # end
+
+attempts = 1
+while attempts < 4
+    puts "press n to quit or any other key to continue"
