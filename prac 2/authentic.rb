@@ -5,6 +5,14 @@ users = [
     { username: 'user4', password: 'pssword4' }
 ]
 
+def auth_user(username, password, list_of_users)
+    list_of_users.each do |person|
+        if person[:username] == username && person[:password] == password
+            return person
+        end
+    end
+end
+
 puts "welcome to user app"
 25.times { print "_-"}
 puts 
@@ -18,14 +26,7 @@ while attempts < 4
     username = gets.chomp
     print 'Password: '
     password = gets.chomp
-    users.each do |person|
-        if person[:username] == username && person[:password] == password
-            puts person
-            break
-        else
-            puts "credentials not found"
-        end 
-    end
+
     puts "press n to quit or any other key to continue"
     input = gets.chomp.downcase
     if input == 'n'
