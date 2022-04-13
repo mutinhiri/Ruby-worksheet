@@ -11,16 +11,6 @@ puts
 puts "This program will take input from the user and compare the password"
 puts "If password is correct user object is returned "
 
-# while i < 3
-#     puts "Enter username"
-#     uname = gets.chomp
-#     if uname == 'user1'
-#         puts 'user 1 selected'
-#     else
-#         puts "check user name"
-#     end
-#     i ++
-# end
 
 attempts = 1
 while attempts < 4
@@ -29,7 +19,11 @@ while attempts < 4
     print 'Password: '
     password = gets.chomp
     users.each do |person|
-        if person[:user]
+        if person[:username] == username && person[:password] == password
+            puts user
+        else
+            puts "credentials not found"
+        end 
     puts "press n to quit or any other key to continue"
     input = gets.chomp.downcase
     if input == 'n'
