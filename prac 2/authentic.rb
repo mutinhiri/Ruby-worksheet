@@ -20,10 +20,12 @@ while attempts < 4
     password = gets.chomp
     users.each do |person|
         if person[:username] == username && person[:password] == password
-            puts user
+            puts person
+            break
         else
             puts "credentials not found"
         end 
+    end
     puts "press n to quit or any other key to continue"
     input = gets.chomp.downcase
     if input == 'n'
