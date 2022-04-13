@@ -10,8 +10,8 @@ def auth_user(username, password, list_of_users)
         if person[:username] == username && person[:password] == password
             return person
         end
-        return 'credentials not correct'
     end
+    return 'credentials not correct'
 end
 
 puts "welcome to user app"
