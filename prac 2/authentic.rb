@@ -9,9 +9,8 @@ def auth_user(username, password, list_of_users)
     list_of_users.each do |person|
         if person[:username] == username && person[:password] == password
             return person
-        else 
-            return 'credentials not correct'
         end
+        return 'credentials not correct'
     end
 end
 
