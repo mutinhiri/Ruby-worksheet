@@ -24,4 +24,5 @@ loop do
     puts "Which ciuty do you want to look up the area"
     puts get_city_names(dial_book)
     puts "enter city selection"
+    prompt = gets.chomp
 end
