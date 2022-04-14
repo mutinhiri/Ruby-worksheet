@@ -16,4 +16,5 @@ barna = Student.new
 barna.first_name = "Bunbee"
 mafuta = "Mafuta"
 puts barna.first_name
-barna.last_name = 
+barna.last_name = mafuta
+puts barna 
