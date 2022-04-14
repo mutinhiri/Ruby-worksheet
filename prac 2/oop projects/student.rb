@@ -1,7 +1,7 @@
 class Student
     attr_accessor :first_name, :last_name, :email, :username, :password
     
-    def initialize
+    def initialize(first_name, last_name)
 
     @first_name
     @last_name
