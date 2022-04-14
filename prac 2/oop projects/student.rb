@@ -5,3 +5,5 @@ class Student
     @username
     @password
 end
+
+barna = Student.new
