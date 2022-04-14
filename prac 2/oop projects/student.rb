@@ -7,3 +7,4 @@ class Student
 end
 
 barna = Student.new
+puts barna
