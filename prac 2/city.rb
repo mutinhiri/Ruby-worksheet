@@ -9,3 +9,6 @@ dial_book = {
 }
 
 #  Get city names from the hash
+def get_city_names (somehash)
+end
+
