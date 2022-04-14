@@ -14,6 +14,7 @@ def get_city_names (somehash)
 end
 
 def get_area_code(somehash, key)
+    somehash[key]
 
 end
 
