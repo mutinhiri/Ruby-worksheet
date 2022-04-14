@@ -5,5 +5,5 @@ dial_book = {
     "harare" => "004",
     "bulawayo" => "009",
     "kariba" => "098",
-    "gweru"
+    "gweru" => "054"
 }
