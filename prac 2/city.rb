@@ -27,4 +27,7 @@ loop do
     prompt = gets.chomp
     if dial_book.include?(prompt)
         # do something
+    else
+        puts "Invalid city name entered"
+    end
 end
