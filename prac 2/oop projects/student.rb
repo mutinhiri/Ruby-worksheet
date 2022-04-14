@@ -15,4 +15,5 @@ class Student
 end
 
 barna = Student.new
+barna.first_name = "Bunbee"
 puts barna
