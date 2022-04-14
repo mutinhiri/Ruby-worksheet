@@ -27,7 +27,7 @@ loop do
     prompt = gets.chomp
     if dial_book.include?(prompt)
         # do something
-        puts "the area code for #{prompt}"
+        puts "the area code for #{prompt} is #{get_area_code(dial_book, prompt)}"
     else
         puts "Invalid city name entered"
     end
