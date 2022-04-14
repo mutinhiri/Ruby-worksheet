@@ -15,3 +15,4 @@ end
 barna = Student.new
 barna.first_name = "Bunbee"
 puts barna.first_name
+barna.last_name = 
