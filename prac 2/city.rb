@@ -12,3 +12,6 @@ dial_book = {
 def get_city_names (somehash)
 end
 
+def get_area_code(somehash, key)
+
+end
