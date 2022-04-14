@@ -7,6 +7,7 @@ class Student
 
     def to_s
         "First name: " #{@first_name}
+    end
 end
 
 barna = Student.new
