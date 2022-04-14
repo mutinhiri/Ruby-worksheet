@@ -14,4 +14,4 @@ end
 
 barna = Student.new('barna', 'mafuta', 'barna@email.com' ,'barna1', 'Pa$$w0rd' )
 
-puts barna
+puts barna.keys
