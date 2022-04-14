@@ -7,3 +7,6 @@ dial_book = {
     "kariba" => "098",
     "gweru" => "054"
 }
+
+
+#  Get city names from the hash
