@@ -12,4 +12,4 @@ class Student
 
 end
 
-barna = Student.new
+barna = Student.new('barna', 'mafuta', '')
