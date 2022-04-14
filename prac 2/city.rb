@@ -25,5 +25,5 @@ loop do
     puts get_city_names(dial_book)
     puts "enter city selection"
     prompt = gets.chomp
-    if dial_book.includes?(prompt)
+    if dial_book.include?(prompt)
 end
