@@ -8,5 +8,4 @@ dial_book = {
     "gweru" => "054"
 }
 
-
 #  Get city names from the hash
