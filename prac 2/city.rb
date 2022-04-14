@@ -19,3 +19,4 @@ end
 loop do
     puts "Do you want to look up area code based on city name (Y?N)"
     answer = gets.chomp.downcase
+    break if answer != "y"
