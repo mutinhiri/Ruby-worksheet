@@ -21,3 +21,4 @@ loop do
     answer = gets.chomp.downcase
     break if answer != "y"
     puts "Which ciuty do you want to look up the area"
+        get_city_names(dial_book)
