@@ -4,3 +4,4 @@ class Student
     @email
     @username
     @password
+end
