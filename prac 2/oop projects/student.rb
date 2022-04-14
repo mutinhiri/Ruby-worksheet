@@ -1,5 +1,7 @@
 class Student
     attr_accessor :first_name, :last_name, :email, :username, :password
+    
+    def initialize
 
     @first_name
     @last_name
