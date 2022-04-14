@@ -1,5 +1,6 @@
 class Student
-    attr_accessor :first_name, :last_name, :email
+    attr_accessor :first_name, :last_name, :email, :username, :password
+    
     @first_name
     @last_name
     @email
