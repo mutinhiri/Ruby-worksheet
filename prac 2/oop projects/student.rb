@@ -1,13 +1,14 @@
 class Student
     attr_accessor :first_name, :last_name, :email, :username, :password
     
-    def initialize(first_name, last_name)
+    def initialize(first_name, last_name, email, username, password)
 
-    @first_name
-    @last_name
-    @email
-    @username
-    @password
+        @first_name 
+        @last_name
+        @email
+        @username
+        @password
+    end
 
     # def to_s
     #     "First name: " #{@first_name}
