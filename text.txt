@@ -8,3 +8,4 @@ Student class use cases
 2 Student is user
 3 Passwords cannot be stored as strings
 4 Hashing algorithms for digest
+5 MD5 is the algorithm used to hash the elements into the database and the bcrypt is for added salts
