@@ -4,3 +4,5 @@ Gld to know
 
 
 Student class use cases
+1 Authentication system in web apps
+2 
